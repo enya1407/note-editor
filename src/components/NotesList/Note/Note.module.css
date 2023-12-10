@@ -1,0 +1,31 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #1677ff;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+    border-radius: 6px;
+}
+
+.content {
+    width: 400px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.textArea {
+    padding: 4px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottomButton {
+    margin-top: 5px;
+}
